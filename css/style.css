@@ -1,0 +1,55 @@
+.navbar {
+    position: fixed; /* Rende la navbar fissa */
+    top: 0; /* Posiziona la navbar in cima alla pagina */
+    width: 100%; /* Estende la navbar per l'intera larghezza */
+    z-index: 1000; /* Assicura che la navbar sia sopra altri elementi */
+  }
+  
+  body {
+    padding-top: 90px; /* Aggiunge spazio in cima al corpo della pagina */
+    top: 0px !important;
+  }
+  
+
+  .icon-link {
+    margin-right: 90px; /* Distanzia ciascuna icona di 20px dalla successiva */
+}
+
+.nav-link {
+  color: black; /* Colore di default del testo */
+  transition: color 0.3s ease; /* Transizione dolce per l'effetto hover */
+}
+
+.nav-link:hover {
+  color: #007bff; /* Colore del testo quando ci passi sopra il mouse */
+  font-weight: bold; /* Rendi il testo grassetto quando ci passi sopra il mouse */
+  text-decoration: underline; /* Sottolinea il testo quando ci passi sopra il mouse */
+}
+
+.navbar-collapse {
+  padding-right: 100px; 
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh; /* Altezza completa della finestra */
+  margin-left: 115px; /* Sposta le icone verso destra */
+
+}
+
+.icon {
+  display: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer {
+  width: 100%;
+  max-width: 800px; /* Puoi regolare la larghezza massima */
+  margin: 0 auto; /* Centra il footer */
+}
