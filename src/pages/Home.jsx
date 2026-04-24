@@ -7,7 +7,7 @@ import ReviewCard from '../components/ReviewCard';
 
 const CAROUSEL_IMAGES = [
   '/assets/Carousel/carousel_home_01',
-  '/assets/Carousel/carousel_home_02',
+  '/assets/Carousel/carousel_home_04',
   '/assets/Carousel/carousel_home_03',
 ];
 

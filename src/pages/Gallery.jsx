@@ -3,7 +3,7 @@ import SEO from '../components/SEO';
 import ImageGallery from '../components/ImageGallery';
 
 const EXCLUDED = new Set([35, 36, 37, 39, 41, 42]);
-const GALLERY_IMAGES = Array.from({ length: 62 }, (_, i) => i + 1)
+const GALLERY_IMAGES = Array.from({ length: 66 }, (_, i) => i + 1)
   .filter(n => !EXCLUDED.has(n))
   .map(n => ({
     src: `/assets/Esterno/panoramasuite_esterno_${String(n).padStart(2, '0')}`,
