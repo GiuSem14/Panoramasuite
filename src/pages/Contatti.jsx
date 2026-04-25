@@ -35,10 +35,7 @@ function Contatti() {
       {/* Header */}
       <div className="pt-16 lg:pt-20">
         <div className="relative h-64 lg:h-72 overflow-hidden">
-          <picture>
-            <source srcSet="/assets/Carousel/carousel_contatti_01.webp" type="image/webp" />
             <img src="/assets/Carousel/carousel_contatti_01.jpg" alt="Contatti" className="w-full h-full object-cover" />
-          </picture>
           <div className="absolute inset-0 bg-black/50 flex flex-col items-center justify-center text-white text-center px-4">
             <p className="font-heading text-sm font-semibold tracking-[0.2em] uppercase text-gold mb-3">PanoramaSuite</p>
             <h1 className="font-brand text-5xl lg:text-7xl mb-3">{t('contatti.title')}</h1>

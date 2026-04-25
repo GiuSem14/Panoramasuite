@@ -8,15 +8,12 @@ function SuiteCard({ to, imageSrc, title, description, amenities = [] }) {
     <div className="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300">
       {/* Image with title overlaid */}
       <div className="relative overflow-hidden aspect-[4/3]">
-        <picture>
-          <source srcSet={`${imageSrc}.webp`} type="image/webp" />
           <img
             src={`${imageSrc}.jpg`}
             alt={title}
             className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
             loading="lazy"
           />
-        </picture>
         {/* Gradient overlay */}
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent" />
         {/* Title overlaid on image in Great Vibes */}

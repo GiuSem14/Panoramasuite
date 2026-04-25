@@ -70,10 +70,7 @@ function DoubleRoom() {
       {/* Hero */}
       <div className="pt-16 lg:pt-20">
         <div className="relative h-80 lg:h-[60vh] overflow-hidden">
-          <picture>
-            <source srcSet="/assets/Suites/double_room_camera_01.webp" type="image/webp" />
             <img src="/assets/Suites/double_room_camera_01.jpg" alt="Double Room" className="w-full h-full object-cover" />
-          </picture>
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-black/20 flex flex-col items-start justify-end p-8 lg:p-16">
             <Link
               to="/suites"

@@ -24,10 +24,7 @@ function Gallery() {
       {/* Header */}
       <div className="pt-16 lg:pt-20">
         <div className="relative h-64 lg:h-72 overflow-hidden">
-          <picture>
-            <source srcSet="/assets/Esterno/panoramasuite_esterno_10.webp" type="image/webp" />
             <img src="/assets/Esterno/panoramasuite_esterno_10.jpg" alt="Galleria" className="w-full h-full object-cover" />
-          </picture>
           <div className="absolute inset-0 bg-black/50 flex flex-col items-center justify-center text-white text-center px-4">
             <p className="font-heading text-sm font-semibold tracking-[0.2em] uppercase text-gold mb-3">
               PanoramaSuite

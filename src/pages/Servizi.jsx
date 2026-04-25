@@ -31,15 +31,12 @@ function BreakfastCarousel() {
           key={i}
           className={`absolute inset-0 transition-opacity duration-1000 ${i === slide ? 'opacity-100' : 'opacity-0'}`}
         >
-          <picture>
-            <source srcSet={`${img.src}.webp`} type="image/webp" />
             <img
               src={`${img.src}.jpg`}
               alt={img.alt}
               className="w-full h-full object-contain"
               loading={i === 0 ? 'eager' : 'lazy'}
             />
-          </picture>
         </div>
       ))}
     </div>
@@ -100,10 +97,7 @@ function Servizi() {
       {/* Header */}
       <div className="pt-16 lg:pt-20">
         <div className="relative h-64 lg:h-72 overflow-hidden">
-          <picture>
-            <source srcSet="/assets/Carousel/carousel_home_01.webp" type="image/webp" />
             <img src="/assets/Carousel/carousel_home_01.jpg" alt="Servizi" className="w-full h-full object-cover" />
-          </picture>
           <div className="absolute inset-0 bg-black/50 flex flex-col items-center justify-center text-white text-center px-4">
             <p className="font-heading text-sm font-semibold tracking-[0.2em] uppercase text-gold mb-3">
               PanoramaSuite

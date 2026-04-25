@@ -44,15 +44,12 @@ function ImageGallery({ images }) {
             className="break-inside-avoid mb-3 cursor-pointer group overflow-hidden rounded-lg"
             onClick={() => setLightboxIndex(i)}
           >
-            <picture>
-              <source srcSet={`${img.src}.webp`} type="image/webp" />
               <img
                 src={`${img.src}.jpg`}
                 alt={img.alt}
                 loading="lazy"
                 className="w-full block transition-transform duration-300 group-hover:scale-105 group-hover:brightness-90"
               />
-            </picture>
           </div>
         ))}
       </div>
@@ -76,14 +73,11 @@ function ImageGallery({ images }) {
 
           {/* Image */}
           <div onClick={(e) => e.stopPropagation()} className="max-h-[90vh] max-w-[90vw] flex items-center justify-center">
-            <picture>
-              <source srcSet={`${images[lightboxIndex].src}.webp`} type="image/webp" />
               <img
                 src={`${images[lightboxIndex].src}.jpg`}
                 alt={images[lightboxIndex].alt}
                 className="max-h-[88vh] max-w-[88vw] object-contain rounded-lg shadow-2xl"
               />
-            </picture>
           </div>
 
           {/* Next */}

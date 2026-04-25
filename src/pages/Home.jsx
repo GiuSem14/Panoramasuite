@@ -91,10 +91,7 @@ function Home() {
             key={i}
             className={`absolute inset-0 transition-opacity duration-1000 ${i === slide ? 'opacity-100' : 'opacity-0'}`}
           >
-            <picture>
-              <source srcSet={`${src}.webp`} type="image/webp" />
               <img src={`${src}.jpg`} alt="" className="w-full h-full object-cover" />
-            </picture>
           </div>
         ))}
         <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-black/50" />
@@ -167,19 +164,10 @@ function Home() {
               </div>
             </div>
             <div className="grid grid-cols-2 gap-3">
-              <picture>
-                <source srcSet="/assets/Suites/double_room_camera_01.webp" type="image/webp" />
                 <img src="/assets/Suites/double_room_camera_01.jpg" alt="Double Room" className="w-full rounded-2xl object-cover aspect-[3/4] shadow-lg" loading="lazy" />
-              </picture>
               <div className="flex flex-col gap-3 mt-8">
-                <picture>
-                  <source srcSet="/assets/Suites/king_room_camera_01.webp" type="image/webp" />
                   <img src="/assets/Suites/king_room_camera_01.jpg" alt="King Room" className="w-full rounded-2xl object-cover aspect-square shadow-lg" loading="lazy" />
-                </picture>
-                <picture>
-                  <source srcSet="/assets/Esterno/panoramasuite_esterno_01.webp" type="image/webp" />
                   <img src="/assets/Esterno/panoramasuite_esterno_01.jpg" alt="Vista esterna" className="w-full rounded-2xl object-cover aspect-square shadow-lg" loading="lazy" />
-                </picture>
               </div>
             </div>
           </div>
@@ -310,15 +298,12 @@ function Home() {
           <div className="grid grid-cols-3 md:grid-cols-5 gap-2 mb-8">
             {[3,7,12,20,30].map((n) => (
               <div key={n} className="overflow-hidden rounded-xl aspect-square">
-                <picture>
-                  <source srcSet={`/assets/Esterno/panoramasuite_esterno_${String(n).padStart(2,'0')}.webp`} type="image/webp" />
                   <img
                     src={`/assets/Esterno/panoramasuite_esterno_${String(n).padStart(2,'0')}.jpg`}
                     alt="PanoramaSuite"
                     className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
                     loading="lazy"
                   />
-                </picture>
               </div>
             ))}
           </div>

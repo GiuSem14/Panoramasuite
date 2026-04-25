@@ -16,10 +16,7 @@ function Suites() {
       {/* Page header */}
       <div className="pt-20 lg:pt-24 bg-cream">
         <div className="relative h-64 lg:h-80 overflow-hidden">
-          <picture>
-            <source srcSet="/assets/Esterno/panoramasuite_esterno_64.webp" type="image/webp" />
             <img src="/assets/Esterno/panoramasuite_esterno_64.jpg" alt="Le Suite" className="w-full h-full object-cover" />
-          </picture>
           <div className="absolute inset-0 bg-black/50 flex flex-col items-center justify-center text-white text-center px-4">
             <p className="font-heading text-sm font-semibold tracking-[0.2em] uppercase text-gold mb-3">
               PanoramaSuite
