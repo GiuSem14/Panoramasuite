@@ -133,5 +133,10 @@
     "back": "Zurück",
     "loading": "Laden..."
   },
-  "whatsapp_message": "Hallo, ich möchte Informationen zur Zimmerverfügbarkeit für den..."
+  "whatsapp_message": "Hallo, ich möchte Informationen zur Zimmerverfügbarkeit für den...",
+  "notfound": {
+    "title": "Seite nicht gefunden",
+    "desc": "Die gesuchte Seite existiert nicht oder wurde verschoben.",
+    "cta": "Zurück zur Startseite"
+  }
 }

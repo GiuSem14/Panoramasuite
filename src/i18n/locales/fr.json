@@ -133,5 +133,10 @@
     "back": "Retour",
     "loading": "Chargement..."
   },
-  "whatsapp_message": "Bonjour, je voudrais des informations sur la disponibilité des chambres pour le..."
+  "whatsapp_message": "Bonjour, je voudrais des informations sur la disponibilité des chambres pour le...",
+  "notfound": {
+    "title": "Page introuvable",
+    "desc": "La page que vous recherchez n'existe pas ou a été déplacée.",
+    "cta": "Retour à l'accueil"
+  }
 }

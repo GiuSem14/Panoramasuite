@@ -11,6 +11,7 @@ import Gallery from './pages/Gallery';
 import Servizi from './pages/Servizi';
 import Contatti from './pages/Contatti';
 import Privacy from './pages/Privacy';
+import NotFound from './pages/NotFound';
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -33,6 +34,7 @@ function AppLayout() {
           <Route path="/servizi" element={<Servizi />} />
           <Route path="/contatti" element={<Contatti />} />
           <Route path="/privacy" element={<Privacy />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
       <Footer />

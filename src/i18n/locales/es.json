@@ -133,5 +133,10 @@
     "back": "Volver",
     "loading": "Cargando..."
   },
-  "whatsapp_message": "Hola, me gustaría información sobre la disponibilidad de habitaciones para el día..."
+  "whatsapp_message": "Hola, me gustaría información sobre la disponibilidad de habitaciones para el día...",
+  "notfound": {
+    "title": "Página no encontrada",
+    "desc": "La página que busca no existe o ha sido trasladada.",
+    "cta": "Volver al inicio"
+  }
 }

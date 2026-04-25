@@ -133,5 +133,10 @@
     "back": "Back",
     "loading": "Loading..."
   },
-  "whatsapp_message": "Hello, I would like information about room availability for the date..."
+  "whatsapp_message": "Hello, I would like information about room availability for the date...",
+  "notfound": {
+    "title": "Page not found",
+    "desc": "The page you are looking for does not exist or has been moved.",
+    "cta": "Back to Home"
+  }
 }
