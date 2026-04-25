@@ -4,8 +4,6 @@ import { useTranslation } from 'react-i18next';
 import SEO from '../components/SEO';
 import ImageGallery from '../components/ImageGallery';
 
-const BOOKING_URL = 'https://www.booking.com/hotel/it/panorama-suite-piazza-armerina2.it.html';
-
 const GALLERY_IMAGES = [
   ...Array.from({ length: 7 }, (_, i) => ({
     src: `/assets/Suites/king_room_camera_${String(i + 1).padStart(2, '0')}`,
@@ -141,21 +139,14 @@ function KingRoom() {
                 </div>
 
                 <div className="bg-forest text-white rounded-2xl p-6 text-center">
-                  <h3 className="font-heading text-xl font-semibold mb-2">Prenota la tua suite</h3>
-                  <p className="text-white/70 text-sm mb-5">Disponibilità e tariffe su Booking.com</p>
-                  <a
-                    href={BOOKING_URL}
-                    target="_blank" rel="noopener noreferrer"
-                    className="block bg-gold text-white font-heading font-semibold text-sm tracking-widest uppercase px-8 py-3 rounded-full hover:bg-gold-light transition-colors mb-3"
-                  >
-                    {t('suites.book_btn')}
-                  </a>
+                  <h3 className="font-heading text-xl font-semibold mb-2">Contattaci</h3>
+                  <p className="text-white/70 text-sm mb-5">Per informazioni e disponibilità</p>
                   <a
                     href="https://wa.me/393714544445?text=Salve%2C%20vorrei%20informazioni%20sulla%20King%20Room"
                     target="_blank" rel="noopener noreferrer"
-                    className="block border border-white/30 text-white font-heading font-semibold text-sm tracking-wide px-8 py-3 rounded-full hover:bg-white/10 transition-colors"
+                    className="block bg-gold text-white font-heading font-semibold text-sm tracking-widest uppercase px-8 py-3 rounded-full hover:bg-gold-light transition-colors"
                   >
-                    Info via WhatsApp
+                    Scrivici su WhatsApp
                   </a>
                 </div>
               </div>

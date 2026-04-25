@@ -9,8 +9,7 @@
   "hero": {
     "location": "Piazza Armerina, Sicilia",
     "title": "Un'esperienza unica nel cuore della Sicilia",
-    "cta_suites": "Scopri le Suite",
-    "cta_booking": "Prenota Ora"
+    "cta_suites": "Scopri le Suite"
   },
   "home": {
     "welcome_title": "Benvenuti a PanoramaSuite",
@@ -22,10 +21,9 @@
     "services_title": "I Nostri Servizi",
     "services_subtitle": "Tutto ciò che rende speciale il vostro soggiorno",
     "reviews_title": "Cosa Dicono di Noi",
-    "reviews_subtitle": "Le opinioni dei nostri ospiti su Booking, Google e TripAdvisor",
+    "reviews_subtitle": "Le opinioni dei nostri ospiti su Google e TripAdvisor",
     "cta_title": "Pronti a vivere l'esperienza PanoramaSuite?",
-    "cta_subtitle": "Prenotate direttamente su Booking.com o contattateci via WhatsApp",
-    "cta_booking": "Prenota su Booking.com",
+    "cta_subtitle": "Contattateci via WhatsApp per informazioni e disponibilità",
     "cta_whatsapp": "Scrivici su WhatsApp",
     "view_all_suites": "Vedi tutte le suite",
     "view_all_services": "Tutti i servizi",
@@ -134,5 +132,6 @@
     "all_services": "Tutti i Servizi",
     "back": "Indietro",
     "loading": "Caricamento..."
-  }
+  },
+  "whatsapp_message": "Salve, vorrei informazioni sulla disponibilità delle camere per il giorno..."
 }

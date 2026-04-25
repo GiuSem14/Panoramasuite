@@ -1,9 +1,12 @@
+import { useTranslation } from 'react-i18next';
+
 function WhatsAppButton() {
-  const WA_URL = 'https://wa.me/393714544445?text=Salve%2C%20vorrei%20informazioni%20sulla%20disponibilit%C3%A0%20delle%20camere%20per%20il%20giorno...';
+  const { t } = useTranslation();
+  const waUrl = `https://wa.me/393714544445?text=${encodeURIComponent(t('whatsapp_message'))}`;
 
   return (
     <a
-      href={WA_URL}
+      href={waUrl}
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Contattaci su WhatsApp"

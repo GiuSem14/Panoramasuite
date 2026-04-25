@@ -11,7 +11,6 @@ const CAROUSEL_IMAGES = [
   '/assets/Carousel/carousel_home_03',
 ];
 
-const BOOKING_URL = 'https://www.booking.com/hotel/it/panorama-suite-piazza-armerina2.it.html';
 const WA_URL = 'https://wa.me/393714544445?text=Salve%2C%20vorrei%20informazioni%20sulla%20disponibilit%C3%A0%20delle%20camere%20per%20il%20giorno...';
 
 function Home() {
@@ -27,7 +26,7 @@ function Home() {
     {
       text: 'Posizione fantastica su di una collina davanti a Piazza Armerina, Nicky e Roberto super, camera e bagno pulitissimi la doccia molto spaziosa, la colazione continentale come da noi richiesto abbondante e di ottima qualità servita nel dehor... cosa ci è piaciuto?... tuttooooo.',
       author: 'Giampiero',
-      platform: 'Booking.com',
+      platform: 'Ospite',
     },
     {
       text: 'Posizione stupenda, la vista è strepitosa! Camera arredata con un gusto sopraffino e curata nei minimi dettagli! I proprietari sono due persone favolose vi faranno sentire a casa e coccolati per tutto il soggiorno. Colazione super abbondante, fresca e buonissima! Super consigliato, noi torneremo sicuramente!',
@@ -112,13 +111,6 @@ function Home() {
             >
               {t('hero.cta_suites')}
             </Link>
-            <a
-              href={BOOKING_URL}
-              target="_blank" rel="noopener noreferrer"
-              className="border-2 border-white text-white font-heading font-semibold text-sm tracking-widest uppercase px-8 py-4 rounded-full hover:bg-white hover:text-forest transition-colors duration-200"
-            >
-              {t('hero.cta_booking')}
-            </a>
           </div>
         </div>
         {/* Dots */}
@@ -247,11 +239,6 @@ function Home() {
             ))}
           </div>
           <div className="flex justify-center gap-6 mt-10">
-            <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer"
-              className="flex items-center gap-2 text-sm text-gray-500 hover:text-forest transition-colors">
-              <img src="/assets/Icons/booking.svg" alt="Booking" className="w-5 h-5" />
-              <span className="font-medium">Booking.com</span>
-            </a>
             <a href="https://www.google.com/maps/place/Panorama+Suite/@37.3760137,14.3501748" target="_blank" rel="noopener noreferrer"
               className="flex items-center gap-2 text-sm text-gray-500 hover:text-forest transition-colors">
               <img src="/assets/Icons/google.svg" alt="Google" className="w-5 h-5" />
@@ -274,13 +261,6 @@ function Home() {
           <div className="w-16 h-0.5 bg-gold mx-auto mb-6" />
           <p className="text-gray-600 text-lg mb-10">{t('home.cta_subtitle')}</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href={BOOKING_URL}
-              target="_blank" rel="noopener noreferrer"
-              className="bg-forest text-white font-heading font-semibold text-sm tracking-widest uppercase px-10 py-4 rounded-full hover:bg-forest-light transition-colors shadow-md"
-            >
-              {t('home.cta_booking')}
-            </a>
             <a
               href={WA_URL}
               target="_blank" rel="noopener noreferrer"
