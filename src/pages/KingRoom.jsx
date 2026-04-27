@@ -18,6 +18,7 @@ const GALLERY_IMAGES = [
 function KingRoom() {
   const { t } = useTranslation();
   const [activeTab, setActiveTab] = useState('camera');
+  const waUrl = `https://wa.me/393714544445?text=${encodeURIComponent(t('whatsapp_message'))}`;
 
   const cameraImages = GALLERY_IMAGES.slice(0, 7);
   const bagnoImages = GALLERY_IMAGES.slice(7);
@@ -142,7 +143,7 @@ function KingRoom() {
                   <h3 className="font-heading text-xl font-semibold mb-2">Contattaci</h3>
                   <p className="text-white/70 text-sm mb-5">Per informazioni e disponibilità</p>
                   <a
-                    href="https://wa.me/393714544445?text=Salve%2C%20vorrei%20informazioni%20sulla%20King%20Room"
+                    href={waUrl}
                     target="_blank" rel="noopener noreferrer"
                     className="block bg-gold text-white font-heading font-semibold text-sm tracking-widest uppercase px-8 py-3 rounded-full hover:bg-gold-light transition-colors"
                   >
