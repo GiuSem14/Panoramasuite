@@ -43,6 +43,9 @@
     "amenities_title": "Amenities",
     "gallery_title": "Gallery",
     "back_to_suites": "All suites",
+    "contact_title": "Contact Us",
+    "contact_subtitle": "For information and availability",
+    "contact_wa_btn": "Write us on WhatsApp",
     "amenities": {
       "private_bathroom": "Private bathroom with shower",
       "smart_tv": "Smart TV",

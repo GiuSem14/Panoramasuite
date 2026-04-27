@@ -144,14 +144,14 @@ function DoubleRoom() {
 
                 {/* Book CTA */}
                 <div className="bg-forest text-white rounded-2xl p-6 text-center">
-                  <h3 className="font-heading text-xl font-semibold mb-2">Contattaci</h3>
-                  <p className="text-white/70 text-sm mb-5">Per informazioni e disponibilità</p>
+                  <h3 className="font-heading text-xl font-semibold mb-2">{t('suites.contact_title')}</h3>
+                  <p className="text-white/70 text-sm mb-5">{t('suites.contact_subtitle')}</p>
                   <a
                     href={waUrl}
                     target="_blank" rel="noopener noreferrer"
                     className="block bg-gold text-white font-heading font-semibold text-sm tracking-widest uppercase px-8 py-3 rounded-full hover:bg-gold-light transition-colors"
                   >
-                    Scrivici su WhatsApp
+                    {t('suites.contact_wa_btn')}
                   </a>
                 </div>
               </div>
