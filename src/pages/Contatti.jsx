@@ -16,6 +16,12 @@ function Contatti() {
     if (errors[field]) setErrors(prev => ({ ...prev, [field]: false }));
   };
 
+  const formatDate = (dateStr) => {
+    if (!dateStr) return '';
+    const [year, month, day] = dateStr.split('-');
+    return `${day}/${month}/${year}`;
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
     const errs = {};
@@ -27,7 +33,7 @@ function Contatti() {
       setErrors(errs);
       return;
     }
-    const message = `Salve, sono ${form.nome} ${form.cognome}.\nVorrei richiedere informazioni per il seguente soggiorno:\n- Data arrivo: ${form.dataArrivo}\n- Data partenza: ${form.dataPartenza}\n- Numero ospiti: ${form.numOspiti}\n- Email: ${form.email}\n- Note: ${form.note}`;
+    const message = `Salve, sono ${form.nome} ${form.cognome}.\nVorrei richiedere informazioni per il seguente soggiorno:\n- Data arrivo: ${formatDate(form.dataArrivo)}\n- Data partenza: ${formatDate(form.dataPartenza)}\n- Numero ospiti: ${form.numOspiti}\n- Email: ${form.email}\n- Note: ${form.note}`;
     const waUrl = `https://wa.me/393714544445?text=${encodeURIComponent(message)}`;
     window.open(waUrl, '_blank');
   };
