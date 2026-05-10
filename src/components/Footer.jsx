@@ -111,13 +111,6 @@ function Footer() {
           <p>© {year} PanoramaSuite. {t('footer.rights')}.</p>
           <div className="flex items-center gap-4">
             <Link to="/privacy" className="hover:text-gold transition-colors">{t('footer.privacy')}</Link>
-            <span>|</span>
-            <span>
-              {t('footer.developer')}{' '}
-              <a href="mailto:seminato.giuseppe98@gmail.com" className="text-gray-400 hover:text-gold transition-colors">
-                Giuseppe Seminato
-              </a>
-            </span>
           </div>
         </div>
       </div>
