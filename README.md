@@ -1,16 +1,23 @@
-# React + Vite
+Panorama Suite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Multilingual website for a guesthouse in Piazza Armerina (Sicily, Italy). Built and deployed for a real client, live at panoramasuite.it.
 
-Currently, two official plugins are available:
+Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+React 19 · Vite · Tailwind CSS 4 · React Router · i18next · deployed on Vercel
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+What it does
+Five languages — Italian, English, French, German and Spanish, handled with i18next and automatic browser-language detection. The guesthouse takes international bookings, so the site had to speak to visitors in their own language from the first page.
+Room and suite pages — dedicated pages per room type, with photo galleries.
+Image optimisation — a dedicated OptimizedImage component and a build-time image pipeline (sharp), because the content is photography-heavy and the audience is often on mobile data.
+Dynamic SEO — a SEO component sets title, description and Open Graph tags per page.
+Direct contact — floating WhatsApp button, the channel guests actually use.
+Structure
+src/pages/        Home, Suites, room detail pages, Gallery, Services, Contacts, Privacy
+src/components/   Navbar, Footer, cards, gallery, SEO, optimised image, WhatsApp button
+src/i18n/         i18next setup and locale files (it, en, fr, de, es)
+scripts/          image processing
+Running locally
+bash
+npm install
+npm run dev
