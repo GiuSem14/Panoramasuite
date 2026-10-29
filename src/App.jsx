@@ -3,6 +3,7 @@ import { useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import WhatsAppButton from './components/WhatsAppButton';
+import { SiteAnalytics } from './components/SiteAnalytics';
 import Home from './pages/Home';
 import Suites from './pages/Suites';
 import DoubleRoom from './pages/DoubleRoom';
@@ -39,6 +40,9 @@ function AppLayout() {
       </main>
       <Footer />
       <WhatsAppButton />
+      {/* Vercel Web Analytics + click su Chiama / WhatsApp / Indicazioni.
+          Senza cookie: non dipende dal consenso. */}
+      <SiteAnalytics />
     </>
   );
 }

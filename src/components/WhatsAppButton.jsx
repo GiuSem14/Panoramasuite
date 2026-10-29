@@ -6,6 +6,7 @@ function WhatsAppButton() {
 
   return (
     <a
+      data-track-zona="pulsante flottante"
       href={waUrl}
       target="_blank"
       rel="noopener noreferrer"

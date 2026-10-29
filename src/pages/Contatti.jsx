@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import SEO from '../components/SEO';
+import { trackEvent } from '../lib/track';
 
 function Contatti() {
   const { t } = useTranslation();
@@ -36,6 +37,8 @@ function Contatti() {
     const message = `Salve, sono ${form.nome} ${form.cognome}.\nVorrei richiedere informazioni per il seguente soggiorno:\n- Data arrivo: ${formatDate(form.dataArrivo)}\n- Data partenza: ${formatDate(form.dataPartenza)}\n- Numero ospiti: ${form.numOspiti}\n- Email: ${form.email}\n- Note: ${form.note}`;
     const waUrl = `https://wa.me/393714544445?text=${encodeURIComponent(message)}`;
     window.open(waUrl, '_blank');
+    // Conta la richiesta INVIATA (apre WhatsApp col messaggio precompilato).
+    trackEvent('Richiesta disponibilità inviata', 'modulo');
   };
 
   const hasErrors = Object.values(errors).some(Boolean);
