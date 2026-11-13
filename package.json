@@ -1,36 +1,39 @@
 {
   "name": "panoramasuite",
   "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "version": "1.0.0",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "typecheck": "tsc --noEmit",
+    "check": "npm run typecheck && npm run lint && npm run build",
+    "images:webp": "node scripts/convert-images.mjs"
   },
   "dependencies": {
+    "@fontsource/great-vibes": "^5.3.0",
+    "@fontsource/lato": "^5.3.0",
+    "@fontsource/playfair-display": "^5.3.0",
     "@heroicons/react": "^2.2.0",
     "@vercel/analytics": "^2.0.1",
-    "i18next": "^26.0.6",
-    "i18next-browser-languagedetector": "^8.2.1",
-    "react": "^19.2.5",
-    "react-dom": "^19.2.5",
-    "react-i18next": "^17.0.4",
-    "react-router-dom": "^7.14.2"
+    "next": "16.4.6",
+    "next-intl": "^4.15.1",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
   },
   "devDependencies": {
-    "@eslint/js": "^9.39.4",
-    "@tailwindcss/vite": "^4.2.4",
+    "@tailwindcss/postcss": "^4.3.5",
+    "@types/node": "^22.10.0",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
-    "@vitejs/plugin-react": "^6.0.1",
     "eslint": "^9.39.4",
-    "eslint-plugin-react-hooks": "^7.1.1",
-    "eslint-plugin-react-refresh": "^0.5.2",
-    "globals": "^17.5.0",
-    "sharp": "^0.34.5",
-    "tailwindcss": "^4.2.4",
-    "vite": "^8.0.9"
+    "eslint-config-next": "16.4.6",
+    "sharp": "^0.35.5",
+    "tailwindcss": "^4.3.5",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=20.9"
   }
 }

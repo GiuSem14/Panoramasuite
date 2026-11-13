@@ -1,0 +1,217 @@
+{
+  "nav": {
+    "home": "Home",
+    "suites": "Our Suites",
+    "gallery": "Gallery",
+    "servizi": "Services",
+    "contatti": "Contact"
+  },
+  "hero": {
+    "location": "Piazza Armerina, Sicily",
+    "title": "A unique experience in the heart of Sicily",
+    "cta_suites": "Discover the Suites"
+  },
+  "home": {
+    "welcome_title": "Welcome to PanoramaSuite",
+    "welcome_subtitle": "Your oasis of comfort overlooking Sicily",
+    "welcome_text1": "Nestled in the beauty of Piazza Armerina, PanoramaSuite welcomes you with two exclusive suites designed to provide maximum comfort in an elegant and refined atmosphere.",
+    "welcome_text2": "Enjoy the breathtaking panoramic views of the city, lovingly prepared breakfasts every morning, and the authentic hospitality of the Caruso family.",
+    "suites_title": "Our Suites",
+    "suites_subtitle": "Two exclusive spaces for a perfect stay",
+    "services_title": "Our Services",
+    "services_subtitle": "Everything that makes your stay special",
+    "reviews_title": "What Our Guests Say",
+    "reviews_subtitle": "Guest reviews from Google and TripAdvisor",
+    "cta_title": "Ready to experience PanoramaSuite?",
+    "cta_subtitle": "Contact us via WhatsApp for information and availability",
+    "cta_whatsapp": "Chat on WhatsApp",
+    "view_all_suites": "View all suites",
+    "view_all_services": "All services",
+    "view_gallery": "View Gallery"
+  },
+  "suites": {
+    "title": "Our Suites",
+    "subtitle": "Two exclusive suites for an unforgettable stay",
+    "double_title": "Double Room",
+    "double_short": "Double suite with modern furnishings and panoramic views",
+    "double_desc": "Our Double Room is a double suite furnished with modern taste, featuring a private bathroom with spacious shower, Smart TV, free Wi-Fi and a stunning panoramic view of Piazza Armerina. Continental breakfast is included every morning.",
+    "king_title": "King Room",
+    "king_short": "Suite with king-size bed and authentic Sicilian details",
+    "king_desc": "The King Room is our most exclusive suite, with a king-size bed and contemporary style enriched with Sicilian details. It features a private bathroom, Smart TV, free Wi-Fi and a wonderful panoramic view. Continental breakfast is included every morning.",
+    "discover_btn": "Discover more",
+    "book_btn": "Book now",
+    "amenities_title": "Amenities",
+    "gallery_title": "Gallery",
+    "back_to_suites": "All suites",
+    "contact_title": "Contact Us",
+    "contact_subtitle": "For information and availability",
+    "contact_wa_btn": "Write us on WhatsApp",
+    "amenities": {
+      "private_bathroom": "Private bathroom with shower",
+      "smart_tv": "Smart TV",
+      "wifi": "Free Wi-Fi",
+      "breakfast": "Continental breakfast included",
+      "panoramic_view": "Panoramic view",
+      "king_bed": "King Size Bed",
+      "double_bed": "Double bed",
+      "air_conditioning": "Air conditioning",
+      "daily_cleaning": "Daily cleaning"
+    }
+  },
+  "gallery": {
+    "title": "Photo Gallery",
+    "subtitle": "Discover the landscapes and spaces of PanoramaSuite",
+    "photo": "Photo",
+    "of": "of",
+    "close": "Close",
+    "prev": "Previous",
+    "next": "Next"
+  },
+  "servizi": {
+    "title": "Our Services",
+    "subtitle": "Complete hospitality to make your stay perfect",
+    "colazione_title": "Continental Breakfast",
+    "colazione_desc": "Every morning a rich continental breakfast awaits you, prepared with fresh, quality products, served on our terrace with panoramic views.",
+    "wifi_title": "Free Wi-Fi",
+    "wifi_desc": "High-speed Wi-Fi available throughout the property, completely free for all guests during their stay.",
+    "parking_title": "Private Parking",
+    "parking_desc": "Free private parking directly on our property, safe and convenient for the entire duration of your stay.",
+    "electric_title": "Electric Charging Station",
+    "electric_desc": "Electric vehicle charging station available for a fee, for those who travel sustainably and responsibly.",
+    "cleaning_title": "Daily Cleaning",
+    "cleaning_desc": "Daily cleaning service to ensure maximum hygiene and comfort in our suites throughout your stay.",
+    "restaurant_title": "Restaurant Reservations",
+    "restaurant_desc": "Personalized recommendations and reservations at the best local restaurants, to fully experience the extraordinary Sicilian cuisine.",
+    "linen_title": "Linen Change",
+    "linen_desc": "Regular linen change service to always ensure freshness and maximum comfort during your stay."
+  },
+  "contatti": {
+    "title": "Contact Us",
+    "subtitle": "We are here to answer all your questions",
+    "info_title": "Information",
+    "address_label": "Address",
+    "address": "Piazza Armerina, Sicily",
+    "phone_label": "Phone",
+    "email_label": "Email",
+    "whatsapp_label": "WhatsApp",
+    "checkin_label": "Check-in",
+    "checkout_label": "Check-out",
+    "checkin_hours": "from 2:00 PM to 8:00 PM",
+    "checkout_hours": "by 10:00 AM",
+    "social_title": "Follow Us",
+    "map_title": "Where We Are",
+    "form_title": "Send a Message",
+    "form_firstname": "First Name",
+    "form_lastname": "Last Name",
+    "form_name": "Full Name",
+    "form_email": "Email Address",
+    "form_phone": "Phone (optional)",
+    "form_checkin": "Arrival Date",
+    "form_checkout": "Departure Date",
+    "form_guests": "Number of Guests",
+    "form_notes": "Notes / Additional Requests",
+    "form_message": "Message",
+    "form_submit": "Send Message",
+    "form_submit_wa": "Send via WhatsApp",
+    "form_error_required": "Please fill in all required fields to continue.",
+    "form_whatsapp": "Or write to us on WhatsApp",
+    "form_success_title": "Message sent!",
+    "form_success_text": "Thank you for contacting us. We will reply as soon as possible.",
+    "form_note": "Fill in the form and we will open a WhatsApp chat with all your details pre-filled."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "last_updated": "Last updated: November 2026"
+  },
+  "footer": {
+    "tagline": "A unique experience in the heart of Sicily",
+    "nav_title": "Navigation",
+    "contact_title": "Contact",
+    "follow_title": "Follow Us",
+    "rights": "All rights reserved",
+    "privacy": "Privacy Policy"
+  },
+  "common": {
+    "book_now": "Book Now",
+    "discover_more": "Discover more",
+    "contact_us": "Contact Us",
+    "view_gallery": "View Gallery",
+    "all_services": "All Services",
+    "back": "Back",
+    "loading": "Loading..."
+  },
+  "whatsapp_message": "Hello, I would like information about room availability for the date...",
+  "notfound": {
+    "title": "Page not found",
+    "desc": "The page you are looking for does not exist or has been moved.",
+    "cta": "Back to Home"
+  },
+  "meta": {
+    "home": {
+      "title": "PanoramaSuite - B&B in Piazza Armerina, Sicily",
+      "description": "Discover PanoramaSuite, the bed & breakfast with a panoramic view over Piazza Armerina. Two exclusive suites, continental breakfast included, free parking."
+    },
+    "suites": {
+      "title": "The Suites - PanoramaSuite Piazza Armerina",
+      "description": "Choose between the Double Room and the King Room at PanoramaSuite. Elegant suites with a panoramic view over Piazza Armerina, Sicily."
+    },
+    "double": {
+      "title": "Double Room - PanoramaSuite Piazza Armerina",
+      "description": "The Double Room at PanoramaSuite: a modern double suite with private bathroom, Smart TV, Wi-Fi and a panoramic view over Piazza Armerina, Sicily."
+    },
+    "king": {
+      "title": "King Room - PanoramaSuite Piazza Armerina",
+      "description": "The King Room at PanoramaSuite: a suite with a king-size bed, contemporary Sicilian style, private bathroom and a panoramic view over Piazza Armerina."
+    },
+    "gallery": {
+      "title": "Gallery - PanoramaSuite Piazza Armerina",
+      "description": "See the photos of PanoramaSuite and its panoramic surroundings in Piazza Armerina, Sicily."
+    },
+    "servizi": {
+      "title": "Services - PanoramaSuite Piazza Armerina",
+      "description": "All the services at PanoramaSuite: continental breakfast, Wi-Fi, parking, EV charging point and more."
+    },
+    "contatti": {
+      "title": "Contact - PanoramaSuite Piazza Armerina",
+      "description": "Contact PanoramaSuite for information and bookings. We are in Piazza Armerina, Sicily. Tel: +39 371 454 4445"
+    },
+    "privacy": {
+      "title": "Privacy Policy - PanoramaSuite",
+      "description": "PanoramaSuite privacy policy under EU Regulation 2016/679 (GDPR)."
+    },
+    "notfound": {
+      "title": "Page not found - PanoramaSuite",
+      "description": "The page you are looking for does not exist or has been moved."
+    }
+  },
+  "labels": {
+    "eyebrow_location": "B&B · Piazza Armerina, Sicily",
+    "eyebrow_suites": "Exclusivity & Comfort",
+    "eyebrow_services": "Hospitality",
+    "eyebrow_reviews": "Testimonials",
+    "tab_room": "Room",
+    "tab_bathroom": "Bathroom",
+    "open_maps": "Open in Google Maps",
+    "select_language": "Select language",
+    "menu": "Menu",
+    "whatsapp_aria": "Contact us on WhatsApp",
+    "map_title": "PanoramaSuite on Google Maps",
+    "slide": "Photo {n}",
+    "guest": "Guest",
+    "skip": "Skip to content",
+    "map_load": "Show the map",
+    "map_notice": "The map is provided by Google: when you load it, Google receives your IP address and may set its own cookies."
+  },
+  "alt": {
+    "exterior": "PanoramaSuite, exterior view",
+    "exterior_n": "PanoramaSuite, exterior view {n}",
+    "room_n": "{room}, bedroom: photo {n}",
+    "bath_n": "{room}, bathroom: photo {n}",
+    "breakfast_n": "Breakfast at PanoramaSuite, photo {n}",
+    "hero": "PanoramaSuite and the view over Piazza Armerina",
+    "suites_header": "The suites at PanoramaSuite",
+    "gallery_header": "The view from PanoramaSuite",
+    "servizi_header": "The outdoor area at PanoramaSuite",
+    "contatti_header": "PanoramaSuite in Piazza Armerina"
+  }
+}

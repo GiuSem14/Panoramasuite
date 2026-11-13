@@ -1,0 +1,217 @@
+{
+  "nav": {
+    "home": "Home",
+    "suites": "Le Suite",
+    "gallery": "Galleria",
+    "servizi": "Servizi",
+    "contatti": "Contatti"
+  },
+  "hero": {
+    "location": "Piazza Armerina, Sicilia",
+    "title": "Un'esperienza unica nel cuore della Sicilia",
+    "cta_suites": "Scopri le Suite"
+  },
+  "home": {
+    "welcome_title": "Benvenuti a PanoramaSuite",
+    "welcome_subtitle": "La vostra oasi di comfort con vista sulla Sicilia",
+    "welcome_text1": "Immersi nella bellezza di Piazza Armerina, PanoramaSuite vi accoglie con due suite esclusive progettate per garantirvi il massimo comfort in un'atmosfera elegante e raffinata.",
+    "welcome_text2": "Godetevi la splendida vista panoramica sulla città, le colazioni preparate con amore ogni mattina e l'ospitalità autentica della famiglia Caruso.",
+    "suites_title": "Le Nostre Suite",
+    "suites_subtitle": "Due ambienti esclusivi per un soggiorno perfetto",
+    "services_title": "I Nostri Servizi",
+    "services_subtitle": "Tutto ciò che rende speciale il vostro soggiorno",
+    "reviews_title": "Cosa Dicono di Noi",
+    "reviews_subtitle": "Le opinioni dei nostri ospiti su Google e TripAdvisor",
+    "cta_title": "Pronti a vivere l'esperienza PanoramaSuite?",
+    "cta_subtitle": "Contattateci via WhatsApp per informazioni e disponibilità",
+    "cta_whatsapp": "Scrivici su WhatsApp",
+    "view_all_suites": "Vedi tutte le suite",
+    "view_all_services": "Tutti i servizi",
+    "view_gallery": "Vedi la Galleria"
+  },
+  "suites": {
+    "title": "Le Nostre Suite",
+    "subtitle": "Due suite esclusive per un soggiorno indimenticabile",
+    "double_title": "Double Room",
+    "double_short": "Suite doppia con arredamento moderno e vista panoramica",
+    "double_desc": "La nostra Double Room è una suite doppia arredata con gusto moderno, dotata di bagno privato con doccia spaziosa, Smart TV, connessione Wi-Fi gratuita e una splendida vista panoramica su Piazza Armerina. La colazione continentale è inclusa ogni mattina.",
+    "king_title": "King Room",
+    "king_short": "Suite con letto king size e dettagli siciliani autentici",
+    "king_desc": "La King Room è la nostra suite più esclusiva, con letto king size e uno stile contemporaneo impreziosito da dettagli siciliani. Dispone di bagno privato, Smart TV, Wi-Fi gratuito e una meravigliosa vista panoramica. La colazione continentale è inclusa ogni mattina.",
+    "discover_btn": "Scopri di più",
+    "book_btn": "Prenota ora",
+    "amenities_title": "Dotazioni",
+    "gallery_title": "Galleria",
+    "back_to_suites": "Tutte le suite",
+    "contact_title": "Contattaci",
+    "contact_subtitle": "Per informazioni e disponibilità",
+    "contact_wa_btn": "Scrivici su WhatsApp",
+    "amenities": {
+      "private_bathroom": "Bagno privato con doccia",
+      "smart_tv": "Smart TV",
+      "wifi": "Wi-Fi gratuito",
+      "breakfast": "Colazione continentale inclusa",
+      "panoramic_view": "Vista panoramica",
+      "king_bed": "Letto King Size",
+      "double_bed": "Letto matrimoniale",
+      "air_conditioning": "Aria condizionata",
+      "daily_cleaning": "Pulizie giornaliere"
+    }
+  },
+  "gallery": {
+    "title": "Galleria Fotografica",
+    "subtitle": "Scopri i paesaggi e gli ambienti di PanoramaSuite",
+    "photo": "Foto",
+    "of": "di",
+    "close": "Chiudi",
+    "prev": "Precedente",
+    "next": "Successiva"
+  },
+  "servizi": {
+    "title": "I Nostri Servizi",
+    "subtitle": "Un'ospitalità completa per rendere il vostro soggiorno perfetto",
+    "colazione_title": "Colazione Continentale",
+    "colazione_desc": "Ogni mattina vi aspetta una ricca colazione continentale, preparata con prodotti freschi e di qualità, servita nel nostro dehors con vista panoramica sulla città.",
+    "wifi_title": "Wi-Fi Gratuito",
+    "wifi_desc": "Connessione Wi-Fi ad alta velocità disponibile in tutta la struttura, completamente gratuita per tutti gli ospiti durante il soggiorno.",
+    "parking_title": "Parcheggio Privato",
+    "parking_desc": "Parcheggio privato gratuito direttamente nella nostra proprietà, sicuro e comodo per tutta la durata del vostro soggiorno.",
+    "electric_title": "Colonnina Elettrica",
+    "electric_desc": "Stazione di ricarica per veicoli elettrici disponibile a pagamento, per chi viaggia in modo sostenibile e responsabile.",
+    "cleaning_title": "Pulizie Giornaliere",
+    "cleaning_desc": "Servizio di pulizie giornaliero per garantire sempre la massima igiene e comfort nelle nostre suite durante il vostro soggiorno.",
+    "restaurant_title": "Prenotazione Ristoranti",
+    "restaurant_desc": "Consigli personalizzati e prenotazione dei migliori ristoranti della zona, per vivere appieno la straordinaria gastronomia siciliana.",
+    "linen_title": "Cambio Biancheria",
+    "linen_desc": "Servizio regolare di cambio biancheria per garantire sempre freschezza e massimo comfort durante il vostro soggiorno."
+  },
+  "contatti": {
+    "title": "Contattaci",
+    "subtitle": "Siamo qui per rispondere a tutte le vostre domande",
+    "info_title": "Informazioni",
+    "address_label": "Indirizzo",
+    "address": "Piazza Armerina, Sicilia",
+    "phone_label": "Telefono",
+    "email_label": "Email",
+    "whatsapp_label": "WhatsApp",
+    "checkin_label": "Check-in",
+    "checkout_label": "Check-out",
+    "checkin_hours": "dalle 14:00 alle 20:00",
+    "checkout_hours": "entro le 10:00",
+    "social_title": "Seguici",
+    "map_title": "Dove Siamo",
+    "form_title": "Invia un Messaggio",
+    "form_firstname": "Nome",
+    "form_lastname": "Cognome",
+    "form_name": "Nome e Cognome",
+    "form_email": "Indirizzo Email",
+    "form_phone": "Telefono (opzionale)",
+    "form_checkin": "Data di arrivo",
+    "form_checkout": "Data di partenza",
+    "form_guests": "Numero Ospiti",
+    "form_notes": "Note / Richieste aggiuntive",
+    "form_message": "Messaggio",
+    "form_submit": "Invia Messaggio",
+    "form_submit_wa": "Invia su WhatsApp",
+    "form_error_required": "Compila tutti i campi obbligatori per continuare.",
+    "form_whatsapp": "Oppure scrivici su WhatsApp",
+    "form_success_title": "Messaggio inviato!",
+    "form_success_text": "Grazie per averci contattato. Vi risponderemo al più presto.",
+    "form_note": "Compila il form e ti apriremo una chat WhatsApp con tutti i dettagli già inseriti."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "last_updated": "Ultimo aggiornamento: novembre 2026"
+  },
+  "footer": {
+    "tagline": "Un'esperienza unica nel cuore della Sicilia",
+    "nav_title": "Navigazione",
+    "contact_title": "Contatti",
+    "follow_title": "Seguici",
+    "rights": "Tutti i diritti riservati",
+    "privacy": "Privacy Policy"
+  },
+  "common": {
+    "book_now": "Prenota Ora",
+    "discover_more": "Scopri di più",
+    "contact_us": "Contattaci",
+    "view_gallery": "Vedi Galleria",
+    "all_services": "Tutti i Servizi",
+    "back": "Indietro",
+    "loading": "Caricamento..."
+  },
+  "whatsapp_message": "Salve, vorrei informazioni sulla disponibilità delle camere per il giorno...",
+  "notfound": {
+    "title": "Pagina non trovata",
+    "desc": "La pagina che cerchi non esiste o è stata spostata.",
+    "cta": "Torna alla Home"
+  },
+  "meta": {
+    "home": {
+      "title": "PanoramaSuite - B&B a Piazza Armerina, Sicilia",
+      "description": "Scopri PanoramaSuite, il bed & breakfast con vista panoramica su Piazza Armerina. Due suite esclusive, colazione continentale inclusa, parcheggio gratuito."
+    },
+    "suites": {
+      "title": "Le Suite - PanoramaSuite Piazza Armerina",
+      "description": "Scegli tra la Double Room e la King Room di PanoramaSuite. Suite eleganti con vista panoramica su Piazza Armerina, Sicilia."
+    },
+    "double": {
+      "title": "Double Room - PanoramaSuite Piazza Armerina",
+      "description": "La Double Room di PanoramaSuite: suite doppia moderna con bagno privato, Smart TV, Wi-Fi e vista panoramica su Piazza Armerina, Sicilia."
+    },
+    "king": {
+      "title": "King Room - PanoramaSuite Piazza Armerina",
+      "description": "La King Room di PanoramaSuite: suite con letto king size, stile siciliano contemporaneo, bagno privato e vista panoramica su Piazza Armerina."
+    },
+    "gallery": {
+      "title": "Galleria - PanoramaSuite Piazza Armerina",
+      "description": "Guarda le foto di PanoramaSuite e dei suoi dintorni panoramici a Piazza Armerina, Sicilia."
+    },
+    "servizi": {
+      "title": "Servizi - PanoramaSuite Piazza Armerina",
+      "description": "Scopri tutti i servizi di PanoramaSuite: colazione continentale, Wi-Fi, parcheggio, colonnina elettrica e molto altro."
+    },
+    "contatti": {
+      "title": "Contatti - PanoramaSuite Piazza Armerina",
+      "description": "Contatta PanoramaSuite per informazioni e prenotazioni. Siamo a Piazza Armerina, Sicilia. Tel: +39 371 454 4445"
+    },
+    "privacy": {
+      "title": "Privacy Policy - PanoramaSuite",
+      "description": "Informativa sulla privacy di PanoramaSuite ai sensi del Regolamento UE 2016/679 (GDPR)."
+    },
+    "notfound": {
+      "title": "Pagina non trovata - PanoramaSuite",
+      "description": "La pagina che cerchi non esiste o è stata spostata."
+    }
+  },
+  "labels": {
+    "eyebrow_location": "B&B · Piazza Armerina, Sicilia",
+    "eyebrow_suites": "Esclusività & Comfort",
+    "eyebrow_services": "Ospitalità",
+    "eyebrow_reviews": "Testimonianze",
+    "tab_room": "Camera",
+    "tab_bathroom": "Bagno",
+    "open_maps": "Apri in Google Maps",
+    "select_language": "Seleziona lingua",
+    "menu": "Menu",
+    "whatsapp_aria": "Contattaci su WhatsApp",
+    "map_title": "PanoramaSuite su Google Maps",
+    "slide": "Foto {n}",
+    "guest": "Ospite",
+    "skip": "Vai al contenuto",
+    "map_load": "Mostra la mappa",
+    "map_notice": "La mappa è di Google: caricandola, Google riceve il tuo indirizzo IP e può impostare i suoi cookie."
+  },
+  "alt": {
+    "exterior": "PanoramaSuite, vista esterna",
+    "exterior_n": "PanoramaSuite, vista esterna {n}",
+    "room_n": "{room}, camera: foto {n}",
+    "bath_n": "{room}, bagno: foto {n}",
+    "breakfast_n": "Colazione a PanoramaSuite, foto {n}",
+    "hero": "PanoramaSuite e la vista su Piazza Armerina",
+    "suites_header": "Le suite di PanoramaSuite",
+    "gallery_header": "Il panorama da PanoramaSuite",
+    "servizi_header": "Il dehors di PanoramaSuite",
+    "contatti_header": "PanoramaSuite a Piazza Armerina"
+  }
+}

@@ -1,5 +1,0 @@
-User-agent: *
-Allow: /
-Disallow: /privacy
-
-Sitemap: https://panoramasuite.it/sitemap.xml

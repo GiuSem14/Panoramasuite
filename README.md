@@ -1,23 +1,31 @@
-Panorama Suite
+# PanoramaSuite
 
-Multilingual website for a guesthouse in Piazza Armerina (Sicily, Italy). Built and deployed for a real client, live at panoramasuite.it.
+Sito del B&B PanoramaSuite a Piazza Armerina, in cinque lingue. In produzione su [panoramasuite.it](https://www.panoramasuite.it).
 
-Stack
+## Stack
 
-React 19 · Vite · Tailwind CSS 4 · React Router · i18next · deployed on Vercel
+Next.js 16 (App Router, pagine statiche) · TypeScript strict · Tailwind CSS 4 · next-intl · Vercel Web Analytics · ospitato su Vercel.
 
-What it does
-Five languages — Italian, English, French, German and Spanish, handled with i18next and automatic browser-language detection. The guesthouse takes international bookings, so the site had to speak to visitors in their own language from the first page.
-Room and suite pages — dedicated pages per room type, with photo galleries.
-Image optimisation — a dedicated OptimizedImage component and a build-time image pipeline (sharp), because the content is photography-heavy and the audience is often on mobile data.
-Dynamic SEO — a SEO component sets title, description and Open Graph tags per page.
-Direct contact — floating WhatsApp button, the channel guests actually use.
-Structure
-src/pages/        Home, Suites, room detail pages, Gallery, Services, Contacts, Privacy
-src/components/   Navbar, Footer, cards, gallery, SEO, optimised image, WhatsApp button
-src/i18n/         i18next setup and locale files (it, en, fr, de, es)
-scripts/          image processing
-Running locally
-bash
+## Comandi
+
+```bash
 npm install
-npm run dev
+npm run dev        # sviluppo su http://localhost:3000
+npm run check      # typecheck + lint + build: lo stesso controllo di GitHub Actions
+npm run images:webp  # rigenera i .webp dai .jpg in public/assets
+```
+
+## Struttura
+
+```
+app/[locale]/        pagine (home, suites, suites/double, suites/king, gallery, servizi, contatti, privacy)
+app/robots.ts        robots.txt (indicizzazione solo con ALLOW_INDEXING=true in produzione)
+app/sitemap.ts       sitemap con le cinque lingue
+components/          interfaccia (Navbar, Footer, gallerie, modulo contatti, mappa su richiesta…)
+i18n/                lingue e navigazione (next-intl)
+lib/site.ts          dati della struttura: telefono, email, social, orari — unica fonte
+lib/seo.ts           metadati, canonical e hreflang per pagina
+lib/jsonld.ts        dati strutturati BedAndBreakfast
+messages/*.json      tutti i testi, uno per lingua, con le stesse chiavi
+public/assets/       foto (.jpg + .webp)
+```
