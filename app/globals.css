@@ -29,6 +29,12 @@ html {
   scroll-behavior: smooth;
 }
 
+/* <picture> (components/Photo.tsx) non deve creare un box: l'<img> si
+   comporta come figlio diretto del contenitore (h-full, aspect, grid). */
+picture {
+  display: contents;
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
